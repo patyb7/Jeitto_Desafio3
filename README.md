@@ -26,7 +26,7 @@ Para usar o pojeto Jeitto FastAPI, siga estas etapas:
 1. Clone este repositório para o seu computador:
 
 ```bash
-git clone https://github.com/seu-usuario/jeitto.git
+git clone git@github.com:patyb783/PROJETO_PYTHON_JEITTO.git
 ```
 
 2. Ative o ambiente virtual e Instale as dependências do projeto:
@@ -64,12 +64,12 @@ pip install sqlalchemy
 
 3. Inicie o aplicativo:
 
-    - Para subir a aplicação navegue até a pasta que está o app e digite o comando abaixo
+    - Para subir a aplicação navegue até a pasta que está o app e digite o comando abaixo:
 ```bash
    uvicorn main:app --reload
 ```
 
-4. Acesse o aplicativo no seu navegador em `http://localhost:8000`.
+4. Acesse o aplicativo no seu navegador em `http://127.0.0.1:8000`.
 5. Documentação Swagger e funcionalidades da API - http://127.0.0.1:8000/docs#/
 6. Testes executados com Postman
 
